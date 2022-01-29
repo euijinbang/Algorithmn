@@ -1,4 +1,33 @@
-# README
+# Algorithm
 
-생각하고 이해하고 푸는 기초 알고리즘
+> Basic
 
+
+
+## Searching
+
+
+
+## Sorting
+
+### Bubble Sort
+Traverse through all array elements.
+Last i elements are in place when we finish one traverse!
+
+https://www.geeksforgeeks.org/bubble-sort/
+
+### Insertion Sort
+
+
+
+### Selection Sort
+
+### Merge Sort
+
+
+
+
+
+## Greedy
+
+## Recursive
