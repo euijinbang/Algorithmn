@@ -25,7 +25,9 @@ https://www.geeksforgeeks.org/bubble-sort/
 
 > 미정렬 구간을 반복하면서 가장 작은 밸류의 인덱스를 찾아 정렬구간 맨 앞과 교환, 앞부터 정렬!
 
-Sorts an array by repeatedly finding the minimun element from unsorted part and putting it at the beginning. 
+Sorts an array by repeatedly finding the minimun element from
+
+unsorted part and putting it at the beginning. 
 
 2 Subarrays : 1) The subarray which is already sorted. 2) Remaining subarray which is unsorted.
 
