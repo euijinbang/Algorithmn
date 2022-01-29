@@ -18,7 +18,17 @@ https://www.geeksforgeeks.org/bubble-sort/
 
 ### Insertion Sort
 
+Pick a key form unsorted part.
 
+Compare the key to its predecessor.
+
+If the key is smaller than its predecessor, move the greater elements one position up,
+
+until key becomes greater than one of the (decreasing index)predecessors or go till the end.(to start)
+
+Then, place the key in the correct position.
+
+https://www.geeksforgeeks.org/insertion-sort/
 
 ### Selection Sort
 
