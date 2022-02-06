@@ -45,7 +45,22 @@ palindrome
 """
 
 
-def is_palindrome(data):
+def is_palindrome_even_odd(data):
+    if len(data) == 1:
+        return True
+
+    if len(data) % 2:
+        if data[:len(data) // 2] == data[len(data) // 2 + 1:][::-1]:
+            return True
+
+    else:
+        if data[:len(data) // 2] == data[len(data) // 2:][::-1]:
+            return True
+        
+    return False
+
+
+def is_palindrome_odd(data):
     if data[:len(data)//2] == data[len(data)//2+1:][::-1]:
         return True
 
