@@ -53,7 +53,10 @@ Then, place the key in the correct position.
 
 https://www.geeksforgeeks.org/insertion-sort/
 
-
+### Quick Sort
+> list[0] = Pivot, return quick_sort(left) + [pivot] + quick_sort(right)
+- 시간복잡도 O(nlogn) , merge sort와 동일
+- 증명 https://ninefloor-design.tistory.com/175 
 
 ## Greedy
 
@@ -61,7 +64,7 @@ https://www.geeksforgeeks.org/insertion-sort/
 
 ## Dynamic Programming & Divide and Conquer
 > 동적 계획 프로그래밍과 분할 정복
-> 
+
 ### 분할 정복
 - 문제를 나눌 수 없을 때 까지 나누어서 각각의 문제를 풀고, 다시 합병하여 답을 얻는다.
 - 부분 문제는 서로 중복되지 않는다.
