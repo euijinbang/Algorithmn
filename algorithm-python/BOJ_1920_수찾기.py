@@ -23,7 +23,7 @@ data_list = sorted(list(map(int, input().split())))
 
 M = int(input())
 num_list = list(map(int, input().split()))
-#
+
 # N, M = 5, 5
 # data_list = [1, 2, 3, 4, 5]
 # num_list = [7, 9, 5]

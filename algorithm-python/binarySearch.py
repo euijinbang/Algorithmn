@@ -30,7 +30,7 @@ def binary_search(sorted_data_list, data_to_find):
         return True
     else:
         if mid > data_to_find:
-            left = sorted_data_list[:mid_idx]
+            left = sorted_data_list[:mid_idx]    # 슬라이싱 = 리스트 복사
             return binary_search(left, data_to_find)
         if mid < data_to_find:
             right = sorted_data_list[mid_idx:]

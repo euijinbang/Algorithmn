@@ -34,10 +34,11 @@ def dp(N):
         if i % 2 == 0:
             min_count[i] = min(min_count[i], min_count[i // 2] + 1)
 
-        if i % 2 == 0:
-            min_count[i] = min(min_count[i], min_count[i // 2] + 1)
+        if i % 3 == 0:
+            min_count[i] = min(min_count[i], min_count[i // 3] + 1)
 
+    print(min_count)
     return min_count[N]
 
 
-print(dp(10))
+print(dp(5))
