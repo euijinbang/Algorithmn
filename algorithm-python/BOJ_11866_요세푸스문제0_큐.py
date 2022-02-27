@@ -3,7 +3,7 @@ from collections import deque
 n, k = map(int, input().split())
 
 
-def josephus(n, k):
+def josephus(n, k):     # n명의 사람들이 원으로 앉아있을 때, k번째 사람부터 kill~
     q = deque()
     answer = []
 
@@ -11,9 +11,9 @@ def josephus(n, k):
         q.append(i)
 
     while q:
-        for j in range(k-1):
+        for j in range(k-1):        # k-1 번 만큼 앞에서 빼서 뒤로 보낸다.
             q.append(q.popleft())
-        answer.append(q.popleft())
+        answer.append(q.popleft())  # 답에 맨 앞의 수를 빼서 넣는다.
 
     return answer
 

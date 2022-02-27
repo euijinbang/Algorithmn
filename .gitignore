@@ -194,7 +194,17 @@ fabric.properties
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
+.
+
+### Environments ### 
+.env
 .venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 pip-selfcheck.json
 
 ### VisualStudioCode ###
@@ -267,6 +277,12 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
 # Windows shortcuts
 *.lnk

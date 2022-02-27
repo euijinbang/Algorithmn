@@ -6,6 +6,20 @@
 
 ## Searching
 
+### Sequential Search
+
+> 순차 탐색
+
+
+
+### Binary Search
+
+> 이진 탐색
+
+
+
+
+
 
 
 ## Sorting
