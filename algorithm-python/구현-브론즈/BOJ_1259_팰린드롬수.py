@@ -1,9 +1,9 @@
 """
-구현
+구현-브론즈
 """
 import sys
 
-sys.stdin = open("input_1259.txt")
+sys.stdin = open("../input_1259.txt")
 
 
 def isPalindrome(data):

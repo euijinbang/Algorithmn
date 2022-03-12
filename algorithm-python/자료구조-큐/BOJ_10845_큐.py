@@ -1,8 +1,6 @@
 """
-라이브러리 말고 리스트로 구현
-시간초과 -> sys.stdin.readline() 사용
+라이브러리 말고 리스트로 구현-브론즈
 """
-import sys
 
 
 def push(ll, x):
@@ -42,13 +40,15 @@ def back(ll):
         print(-1)
 
 
-q_list = list()
-n = int(sys.stdin.readline())
-
-
 def main():
+    # import sys
+    # sys.stdin = open("BOJ_10845_input.txt")
+
+    q_list = list()
+    n = int(input())
+
     for i in range(n):
-        order_list = sys.stdin.readline().split()
+        order_list = input().split()
         order = order_list[0]
 
         if len(order_list) != 1:

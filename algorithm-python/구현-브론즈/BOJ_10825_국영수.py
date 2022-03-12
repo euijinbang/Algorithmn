@@ -3,7 +3,7 @@
 selection sort
 """
 import sys
-sys.stdin = open("BOJ_10825_input.txt")
+sys.stdin = open("../BOJ_10825_input.txt")
 
 n = int(input())
 students = []

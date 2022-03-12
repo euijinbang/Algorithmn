@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("1018.txt")
+sys.stdin = open("../1018.txt")
 
 """
 W, B 경우를 나누어 각각의 횟수를 카운팅하는 것이 문제 해결을 솔루션이다.
