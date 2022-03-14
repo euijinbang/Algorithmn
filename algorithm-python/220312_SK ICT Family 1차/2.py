@@ -1,5 +1,5 @@
 """
-이차원배열, 구현-브론즈
+이차원배열, 구현
 """
 
 def solution(n, clockwise):
