@@ -2,6 +2,7 @@
 그리디, 구현-브론즈, 부르트포스
 """
 
+
 def solution(money, costs):
     coins_input = [1, 5, 10, 50, 100, 500]
     costs_input = costs
