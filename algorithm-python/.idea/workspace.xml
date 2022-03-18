@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3c5ae35-3257-47ff-92f4-b707ff3a4214" name="Changes" comment="REFATOR">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm-python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/문자열슬라이싱.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/순열dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/순열조합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/순열조합dfs+이차원배열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/올림내림.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/이차원배열달팽이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/이차원배열달팽이설명.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/제곱과제곱근.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_알고리즘노트/특정원소기준정렬(람다).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/DFS,BFS/미로탈출.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/DFS,BFS/음료수얼려먹기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/구현/4-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/구현/4-2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/구현/4-3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/구현/4-3교재풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/구현/4-4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_이코테개념/구현/4-4교재풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/211030_네이버파이낸셜 백엔드/건너뛰는달팽이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/211030_네이버파이낸셜 백엔드/건너뛰는달팽이_답.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/2_답.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/2번문제.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/3번문제-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/3번문제-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/4번문제-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220312_SK ICT Family 1차/4번문제-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/220315_삼성 모의역량 테스트 A형/낚시터 자리잡기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ_10825_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ_10845_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ_2941_크로아티아 알파벳.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS,BFS/BOJ_18352_특정거리의도시찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS,BFS/dfs_bfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samsung/장기포게임(dfs).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samsung/지하철노선(조합,완전탐색).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_1259.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_1991.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/검색/BOJ_1920_수찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/검색/binarySearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/검색/binarySearch2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/18406_럭키 스트레이트.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/2869_달팽이는 올라가고 싶다.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/3052_나머지.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_10809_알파벳찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_10817_세 수.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_10817_세 수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_10825_국영수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_1157_단어공부.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_1259_팰린드롬수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_2439_별찍기2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_2562_최댓값.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_2577_숫자의 개수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_2675_문자열 반복.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_2739_구구단.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/BOJ_2908_상수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-브론즈/달팽이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/14502_연구소.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/2020 KAKAO BLIND RECRUITMENT/문자열 압축.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/BOJ_1018_체스판다시칠하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/BOJ_11866_요세푸스문제0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/BOJ_11866_요세푸스문제0_큐.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/BOJ_1316_그룹단어체커.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/SWEA_5209_최소생산비용(시간초과).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/SWEA_5209_최소생산비용.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/구현-실버이상/input_5209.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/그리디/BOJ_2839_설탕배달.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/그리디/greedy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/BOJ_11053_가장 긴 증가하는 부분 수열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/BOJ_11726_타일링.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/BOJ_12852_1로만들기2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/BOJ_1463_1로만들기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/BOJ_2294_동전 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/BOJ_4673_셀프넘버.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/BOJ_9461_파도반수열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/다이나믹프로그래밍/fibo_dp_dc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수학/BOJ_1547_평균.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수학/BOJ_1550_16진수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수학/euclid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/자료구조-스택/BOJ_10773_제로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/자료구조-큐/BOJ_10845_큐.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/자료구조-큐/BOJ_10845_큐_제출.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/자료구조-트리/BOJ_1991_트리순회.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/자료구조-트리/Tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/재귀/BOJ_17478_재귀함수가 뭔가요?.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/재귀/recursive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/BOJ_3672075_수정렬하기3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/bubbleSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/insertionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/quickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/selectionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/최단경로/BOJ_11404_플로이드.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/최단경로/dijkstra_min_weight.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/최단경로/dijkstra_min_weight_path.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25gIp9wtuU7mmEGIk2OaJIBBO1d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/구현-실버이상/2020 KAKAO BLIND RECRUITMENT" />
+      <recent name="$PROJECT_DIR$/211030_네이버파이낸셜 백엔드" />
+      <recent name="$PROJECT_DIR$/구현-실버이상" />
+      <recent name="$PROJECT_DIR$/DFS,BFS" />
+      <recent name="$PROJECT_DIR$/00_알고리즘노트" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.14502_연구소">
+    <configuration name="문자열 압축_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/구현-실버이상/2020 KAKAO BLIND RECRUITMENT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/구현-실버이상/2020 KAKAO BLIND RECRUITMENT/문자열 압축_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="문자열 압축" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/구현-실버이상" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/구현-실버이상/2020 KAKAO BLIND RECRUITMENT/문자열 압축.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14502_연구소" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/구현-실버이상" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/구현-실버이상/14502_연구소.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="18406_럭키 스트레이트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/구현-브론즈" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/구현-브론즈/18406_럭키 스트레이트.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="문자열슬라이싱" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_알고리즘노트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_알고리즘노트/문자열슬라이싱.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="이차원배열달팽이설명" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_알고리즘노트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_알고리즘노트/이차원배열달팽이설명.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="이차원배열달팽이" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_알고리즘노트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_알고리즘노트/이차원배열달팽이.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.14502_연구소" />
+        <item itemvalue="Python.문자열 압축_2" />
+        <item itemvalue="Python.문자열슬라이싱" />
+        <item itemvalue="Python.18406_럭키 스트레이트" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3c5ae35-3257-47ff-92f4-b707ff3a4214" name="Changes" comment="" />
+      <created>1645942482513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645942482513</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="board" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
