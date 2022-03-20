@@ -6,13 +6,16 @@ board = [
 ]
 
 visited = [[0] * 3 for _ in range(3)]
-
+"""
+dfs로 모든 경로를 탐색한다.
+우, 하 방향으로 해당 칸 수만큼 이동하며 탐색한다.
+"""
 # N = int(input())
 # board = []
 # for _ in range(N):
 #     board.append(list(map(int, input().split())))
-#
-# visited = [[0] * N for _ in range(N)]
+
+visited = [[0] * N for _ in range(N)]
 
 
 def dfs(x, y):
@@ -23,7 +26,7 @@ def dfs(x, y):
     if board[x][y] == -1:
         flag = True
 
-    if visited[x][y] == 0:
+    if not visited[x][y]:
         visited[x][y] = 1
         dfs(x + board[x][y], y)
         dfs(x, y + board[x][y])
@@ -32,7 +35,7 @@ def dfs(x, y):
 flag = False
 dfs(0, 0)
 
-if flag == True:
+if flag:
     result = "HaruHaru"
 else:
     result = "Hing"
