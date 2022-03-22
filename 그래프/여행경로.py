@@ -17,6 +17,7 @@ def find_route(count, current):
     if count == ticket_count:
         return True
 
+    # [["ICN", "AAA"], ["ICN", "BBB"], ["BBB", "ICN"]] => ["ICN", "BBB", "ICN", "AAA"]
     # 현재 공항에서 출발하는 경로가 없는 경우
     if current not in airports:
         return False
@@ -57,11 +58,16 @@ def solution(tickets):
 
     # 시작 공항별로 도착 공항을 알파벳 순으로 정렬한다.
     airports = {start: sorted(ends) for start, ends in airports.items()}
+
+    print(airports)
+    print(visited)
     # 알파벳 순으로 가장 앞서는 경로를 routes에 저장한다.
     find_route(0, 'ICN')
+
 
     return routes
 
 
-tickets = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
+# tickets = [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]
+tickets = [["ICN", "AAA"], ["ICN", "BBB"], ["BBB", "ICN"]]
 print(solution(tickets))
