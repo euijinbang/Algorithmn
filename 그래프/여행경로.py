@@ -63,8 +63,8 @@ def solution(tickets):
     # 시작 공항별로 도착 공항을 알파벳 순으로 정렬한다.
     airports = {start: sorted(ends) for start, ends in airports.items()}
 
-    print(airports)
-    print(visited)
+    print(airports)  # {'ICN': ['AAA', 'BBB'], 'BBB': ['ICN']}
+    print(visited)   # {'ICN': [False, False], 'BBB': [False]}
     # 알파벳 순으로 가장 앞서는 경로를 routes에 저장한다.
     find_route(0, 'ICN')
 
