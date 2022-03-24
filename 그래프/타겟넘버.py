@@ -44,9 +44,9 @@ def solution(numbers, target):
     return answer
 
 
-# numbers = [4, 1, 2, 1]
-numbers = [1, 1, 1, 1, 1]
-target = 5
+numbers = [4, 1, 2, 1]
+# numbers = [1, 1, 1, 1, 1]
+target = 4
 
 print(solution(numbers, target))
 
