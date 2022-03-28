@@ -1,6 +1,7 @@
 def go(k, s, cnt, routes):  # k: 현재위치(candidates[k]), s: 걸린 시간, cnt: 방문수
     global min_result
     global min_routes
+
     if s > min_result:
         return
     if cnt == len(candidates) - 1:  # base case
@@ -9,6 +10,7 @@ def go(k, s, cnt, routes):  # k: 현재위치(candidates[k]), s: 걸린 시간, 
         return
 
     num, r, c = candidates[k][1:]
+
     # 1. 방문체크
     candidates[k][0] = 2
 
@@ -30,14 +32,19 @@ def go(k, s, cnt, routes):  # k: 현재위치(candidates[k]), s: 걸린 시간, 
         for i in range(1, len(candidates)):
             if candidates[i][1] == -num:
                 candidates[i][0] = 0
+
     candidates[k][0] = 1
 
 
-T = int(input())
-for t in range(1, T + 1):
-    n = int(input())
-    matrix = [list(map(int, input().split())) for _ in range(n)]
+T = 1
+n = 3
+matrix = [
+    [0, 0, 0],
+    [0, 1, -1],
+    [0, 0, 0]
+]
 
+for t in range(1, T + 1):
     candidates = [[1, 0, 0, 0]]  # (status, num, i, j)  # status => 0:대기, 1:준비됨, 2:방문함
     for i in range(n):
         for j in range(n):
