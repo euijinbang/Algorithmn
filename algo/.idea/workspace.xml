@@ -1,6 +1,743 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb2de8ee-5b83-4457-bf95-22606e21c1be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/dfs_deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/dfs재귀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/딕셔너리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/문자열슬라이싱.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/순열dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/순열조합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/순열조합dfs+이차원배열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/올림내림.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/이차원배열_90도회전.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/이차원배열_상하좌우이동.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/이차원배열달팽이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/이차원배열달팽이설명.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/이차원배열입력받기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/제곱과제곱근.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/00_알고리즘노트/특정원소기준정렬(람다).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/DFS,BFS/미로탈출.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/DFS,BFS/음료수얼려먹기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/구현/4-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/구현/4-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/구현/4-3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/구현/4-3교재풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/구현/4-4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/01_이코테개념/구현/4-4교재풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/210000_삼성 모의역량 테스트 A형/장기포게임(dfs).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/210000_삼성 모의역량 테스트 A형/지하철노선(조합,완전탐색).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/1018.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/211030_네이버파이낸셜 백엔드/건너뛰는달팽이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/211030_네이버파이낸셜 백엔드/건너뛰는달팽이_답.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/BOJ_10825_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/BOJ_10845_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/BOJ_2941_크로아티아 알파벳.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1009.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1072.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1102.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1291.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1303.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1304.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1307.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1314.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1329.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1338.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1339.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1341.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1402.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1430.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1438.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1523.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1658.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1692.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1695.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1697.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1719.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/1856.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/2046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/2514.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/2514.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/2604.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/2604.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/2809.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/2857.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/709.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/710.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/724.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/725.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/732.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/740.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/741.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/742.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/743.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/744.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/745.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/746.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/747.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/748.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/749.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/750.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/751.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/752.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/753.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/754.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/755.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/756.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/761.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/762.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/763.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/764.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/766.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/767.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/768.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/769.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/786.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/787.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/788.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/789.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/790.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/791.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/792.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/793.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/794.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/795.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/801.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/802.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/803.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/804.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/805.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/806.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/807.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/808.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/809.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/810.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/811.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/812.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/813.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/814.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/879.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/993.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/색종이_1438/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/색종이_1438/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/색종이_1438/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/색종이_1438/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/색종이_1438/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/색종이_1438/src/색종이_1438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/색종이_1438/색종이_1438.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/세로읽기_2857/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/세로읽기_2857/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/세로읽기_2857/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/세로읽기_2857/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/세로읽기_2857/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/세로읽기_2857/src/세로읽기_2857.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/JUNGOL/세로읽기_2857/세로읽기_2857.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/0000_telecom/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/0000_telecom/input_s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/0000_telecom/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/0000_telecom/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/0000_telecom/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/11315_오목판정/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/11315_오목판정/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/11315_오목판정/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1209_Sum/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1209_Sum/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1220_Magnetic/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1220_Magnetic/input_s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1220_Magnetic/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1220_Magnetic/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1220_Magnetic/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1220_Magnetic/s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1959_두개의숫자열/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1959_두개의숫자열/input_s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1959_두개의숫자열/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1959_두개의숫자열/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1974_스도쿠검증/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1974_스도쿠검증/input_s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1974_스도쿠검증/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1974_스도쿠검증/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/1974_스도쿠검증/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/input_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/input_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/input_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2001_파리퇴치/s4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2805_농작물수확하기/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2805_농작물수확하기/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/2805_농작물수확하기/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/3499_퍼펙트셔플/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/3499_퍼펙트셔플/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/3499_퍼펙트셔플/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/3499_퍼펙트셔플/sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/4871_그래프경로/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/4871_그래프경로/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/4871_그래프경로/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/6190_단조증가/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/6190_단조증가/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/6190_단조증가/s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/6190_단조증가/s4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/6190_단조증가/s_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/B_1244_스위치켜고끄기/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/B_1244_스위치켜고끄기/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/문제풀이_D1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/문제풀이_Python기초.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/SWEA/IM/피보나치수열 구현 3가지 방법.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1012_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1094.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1094_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/10989.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/10989.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/11053.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/11053.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/11404.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/11404.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1260.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1260.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1260_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1427_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1427_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/14501.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/14501.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/14503.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/14503.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/15969.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/15969.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1697.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1697.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1697_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1874.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1874.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1966.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/1966.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2606.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2606.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2750.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2750.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2798.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2798.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2920.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/2920_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/5397.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/5397.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/baekjoon/5397_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/codility/Codility.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/fibo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/forJava.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/list2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/list3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/list_in_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/optional_parameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/standard_library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/몫과나머지.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/etc/자료형팁.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/input_1259.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/input_1991.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/naver_financial_211031/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/naver_financial_211031/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/naver_financial_211031/네이버파이낸셜_백엔드_1030.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/naver_financial_211031/네이버파이낸셜_백엔드_1030_2번.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/programmers/가장 먼 노드/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/programmers/가장 먼 노드/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/programmers/이중우선순위큐/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/programmers/인형뽑기/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/yogiyo/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/yogiyo/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220201_이전/yogiyo/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220312_SK ICT Family 1차/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220312_SK ICT Family 1차/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220312_SK ICT Family 1차/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220312_SK ICT Family 1차/2_답.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220315_삼성 모의역량 테스트 A형/낚시터 자리잡기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220315_삼성 모의역량 테스트 A형/헌터_풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220326_SW개발 신입 LINER 공개채용/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220326_SW개발 신입 LINER 공개채용/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220326_SW개발 신입 LINER 공개채용/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/220326_SW개발 신입 LINER 공개채용/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/검색/BOJ_1920_수찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/검색/binarySearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/검색/binarySearch2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-골드이상/14502_연구소.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/18406_럭키 스트레이트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/2775_부녀회장이 될테야.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/2869_달팽이는 올라가고 싶다.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/3052_나머지.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_10809_알파벳찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_10817_세 수.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_10817_세 수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_10825_국영수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_1157_단어공부.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_1259_팰린드롬수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_2439_별찍기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_2562_최댓값.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_2577_숫자의 개수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_2675_문자열 반복.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_2739_구구단.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/BOJ_2908_상수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-브론즈/달팽이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/14889_스타트와 링크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/2019 KAKAO BLIND RECRUITMENT/오픈채팅방(해설보고풀이).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/2019 KAKAO BLIND RECRUITMENT/오픈채팅방_풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/2019 KAKAO BLIND RECRUITMENT/후보키_풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/2020 KAKAO BLIND RECRUITMENT/문자열 압축.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/2020 KAKAO BLIND RECRUITMENT/자물쇠와 열쇠.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/2608_로마숫자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/SWEA_5209_최소생산비용(시간초과).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/SWEA_5209_최소생산비용.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/input_5209.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버상위/카펫(완전탐색).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버하위/1475_방번호.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버하위/7568_덩치.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버하위/9372_상근이의 여행.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버하위/BOJ_1018_체스판다시칠하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버하위/BOJ_11866_요세푸스문제0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버하위/BOJ_11866_요세푸스문제0_큐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/구현-실버하위/BOJ_1316_그룹단어체커.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그래프/16173_점프왕쩰리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그래프/16173_점프왕쩰리_bfs풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그래프/16173_점프왕쩰리_dfs풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그래프/18352_특정거리의도시찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그래프/dfs_bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그래프/여행경로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그래프/타겟넘버.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그리디/BOJ_2839_설탕배달.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/그리디/greedy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/BOJ_11053_가장 긴 증가하는 부분 수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/BOJ_11726_타일링.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/BOJ_12852_1로만들기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/BOJ_1463_1로만들기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/BOJ_2294_동전 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/BOJ_4673_셀프넘버.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/BOJ_9461_파도반수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/다이나믹프로그래밍/fibo_dp_dc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/eval_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/eval_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/input_s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/sample_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/문제출제/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/수학/BOJ_1547_평균.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/수학/BOJ_1550_16진수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/수학/euclid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/자료구조-스택/BOJ_10773_제로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/자료구조-큐/BOJ_10845_큐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/자료구조-큐/BOJ_10845_큐_제출.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/자료구조-트리/BOJ_1991_트리순회.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/자료구조-트리/Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/재귀/BOJ_17478_재귀함수가 뭔가요?.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/재귀/recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/정렬/BOJ_3672075_수정렬하기3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/정렬/bubbleSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/정렬/insertionSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/정렬/quickSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/정렬/selectionSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/최단경로/BOJ_11404_플로이드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/최단경로/dijkstra_min_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm-python/최단경로/dijkstra_min_weight_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/algorithm-python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/dfs_deque.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/dfs재귀.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/딕셔너리.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/문자열슬라이싱.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/순열dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/순열조합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/순열조합dfs+이차원배열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/올림내림.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/이차원배열_90도회전.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/이차원배열_상하좌우이동.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/이차원배열달팽이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/이차원배열달팽이설명.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/이차원배열입력받기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/제곱과제곱근.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_알고리즘노트/특정원소기준정렬(람다).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/DFS,BFS/미로탈출.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/DFS,BFS/음료수얼려먹기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/구현/4-1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/구현/4-2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/구현/4-3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/구현/4-3교재풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/구현/4-4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_이코테개념/구현/4-4교재풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../210000_삼성 모의역량 테스트 A형/장기포게임(dfs).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../210000_삼성 모의역량 테스트 A형/지하철노선(조합,완전탐색).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/1018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/211030_네이버파이낸셜 백엔드/건너뛰는달팽이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/211030_네이버파이낸셜 백엔드/건너뛰는달팽이_답.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/BOJ_10825_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/BOJ_10845_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/BOJ_2941_크로아티아 알파벳.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1002.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1009.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1072.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1102.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1291.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1303.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1304.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1307.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1314.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1329.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1338.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1339.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1341.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1402.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1430.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1438.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1523.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1658.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1692.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1695.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1697.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1719.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/1856.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/2046.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/2514.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/2514.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/2604.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/2604.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/2809.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/2857.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/709.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/710.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/724.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/725.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/732.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/740.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/741.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/742.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/743.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/744.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/745.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/746.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/747.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/748.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/749.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/750.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/751.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/752.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/753.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/754.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/755.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/756.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/761.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/762.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/763.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/764.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/766.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/767.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/768.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/769.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/786.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/787.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/788.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/789.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/790.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/791.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/792.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/793.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/794.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/795.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/801.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/802.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/803.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/804.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/805.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/806.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/807.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/808.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/809.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/810.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/811.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/812.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/813.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/814.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/879.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/993.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/색종이_1438/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/색종이_1438/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/색종이_1438/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/색종이_1438/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/색종이_1438/src/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/색종이_1438/src/색종이_1438.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/색종이_1438/색종이_1438.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/세로읽기_2857/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/세로읽기_2857/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/세로읽기_2857/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/세로읽기_2857/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/세로읽기_2857/src/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/세로읽기_2857/src/세로읽기_2857.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/JUNGOL/세로읽기_2857/세로읽기_2857.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/0000_telecom/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/0000_telecom/input_s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/0000_telecom/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/0000_telecom/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/0000_telecom/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/11315_오목판정/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/11315_오목판정/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/11315_오목판정/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1209_Sum/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1209_Sum/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1220_Magnetic/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1220_Magnetic/input_s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1220_Magnetic/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1220_Magnetic/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1220_Magnetic/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1220_Magnetic/s3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1959_두개의숫자열/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1959_두개의숫자열/input_s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1959_두개의숫자열/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1959_두개의숫자열/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1974_스도쿠검증/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1974_스도쿠검증/input_s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1974_스도쿠검증/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1974_스도쿠검증/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/1974_스도쿠검증/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/input_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/input_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/input_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/s3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2001_파리퇴치/s4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2805_농작물수확하기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2805_농작물수확하기/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/2805_농작물수확하기/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/3499_퍼펙트셔플/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/3499_퍼펙트셔플/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/3499_퍼펙트셔플/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/3499_퍼펙트셔플/sample_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/4871_그래프경로/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/4871_그래프경로/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/4871_그래프경로/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/6190_단조증가/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/6190_단조증가/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/6190_단조증가/s3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/6190_단조증가/s4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/6190_단조증가/s_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/B_1244_스위치켜고끄기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/B_1244_스위치켜고끄기/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/문제풀이_D1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/문제풀이_Python기초.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/SWEA/IM/피보나치수열 구현 3가지 방법.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1012.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1012.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1012_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1094.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1094_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/10989.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/10989.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/11053.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/11053.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/11404.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/11404.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1260.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1260.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1260_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1427.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1427_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1427_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/14501.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/14501.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/14503.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/14503.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/15969.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/15969.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1697.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1697.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1697_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1874.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1874.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1966.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/1966.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2606.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2606.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2750.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2750.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2798.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2798.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2920.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/2920_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/5397.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/5397.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/baekjoon/5397_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/codility/Codility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/fibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/forJava.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/format.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/list2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/list3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/list_in_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/optional_parameter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/palindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/standard_library.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/while.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/몫과나머지.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/etc/자료형팁.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/input_1259.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/input_1991.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/naver_financial_211031/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/naver_financial_211031/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/naver_financial_211031/네이버파이낸셜_백엔드_1030.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/naver_financial_211031/네이버파이낸셜_백엔드_1030_2번.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/programmers/가장 먼 노드/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/programmers/가장 먼 노드/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/programmers/이중우선순위큐/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/programmers/인형뽑기/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/yogiyo/01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/yogiyo/02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220201_이전/yogiyo/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220312_SK ICT Family 1차/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220312_SK ICT Family 1차/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220312_SK ICT Family 1차/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220312_SK ICT Family 1차/2_답.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220315_삼성 모의역량 테스트 A형/낚시터 자리잡기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220315_삼성 모의역량 테스트 A형/헌터_풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220326_SW개발 신입 LINER 공개채용/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220326_SW개발 신입 LINER 공개채용/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220326_SW개발 신입 LINER 공개채용/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../220326_SW개발 신입 LINER 공개채용/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm-python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm-python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../검색/BOJ_1920_수찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../검색/binarySearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../검색/binarySearch2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-골드이상/14502_연구소.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/18406_럭키 스트레이트.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/2775_부녀회장이 될테야.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/2869_달팽이는 올라가고 싶다.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/3052_나머지.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_10809_알파벳찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_10817_세 수.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_10817_세 수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_10825_국영수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_1157_단어공부.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_1259_팰린드롬수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_2439_별찍기2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_2562_최댓값.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_2577_숫자의 개수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_2675_문자열 반복.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_2739_구구단.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/BOJ_2908_상수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-브론즈/달팽이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/14889_스타트와 링크.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/2019 KAKAO BLIND RECRUITMENT/오픈채팅방(해설보고풀이).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/2019 KAKAO BLIND RECRUITMENT/오픈채팅방_풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/2019 KAKAO BLIND RECRUITMENT/후보키_풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/2020 KAKAO BLIND RECRUITMENT/문자열 압축.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/2020 KAKAO BLIND RECRUITMENT/자물쇠와 열쇠.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/2608_로마숫자.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/SWEA_5209_최소생산비용(시간초과).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/SWEA_5209_최소생산비용.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/input_5209.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버상위/카펫(완전탐색).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버하위/1475_방번호.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버하위/7568_덩치.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버하위/9372_상근이의 여행.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버하위/BOJ_1018_체스판다시칠하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버하위/BOJ_11866_요세푸스문제0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버하위/BOJ_11866_요세푸스문제0_큐.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../구현-실버하위/BOJ_1316_그룹단어체커.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그래프/16173_점프왕쩰리.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그래프/16173_점프왕쩰리_bfs풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그래프/16173_점프왕쩰리_dfs풀이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그래프/18352_특정거리의도시찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그래프/dfs_bfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그래프/여행경로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그래프/타겟넘버.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그리디/BOJ_2839_설탕배달.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../그리디/greedy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/BOJ_11053_가장 긴 증가하는 부분 수열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/BOJ_11726_타일링.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/BOJ_12852_1로만들기2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/BOJ_1463_1로만들기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/BOJ_2294_동전 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/BOJ_4673_셀프넘버.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/BOJ_9461_파도반수열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../다이나믹프로그래밍/fibo_dp_dc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/eval_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/eval_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/input_s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/sample_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/sample_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문제출제/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../수학/BOJ_1547_평균.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../수학/BOJ_1550_16진수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../수학/euclid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../자료구조-스택/BOJ_10773_제로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../자료구조-큐/BOJ_10845_큐.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../자료구조-큐/BOJ_10845_큐_제출.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../자료구조-트리/BOJ_1991_트리순회.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../자료구조-트리/Tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../재귀/BOJ_17478_재귀함수가 뭔가요?.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../재귀/recursive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정렬/BOJ_3672075_수정렬하기3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정렬/bubbleSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정렬/insertionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정렬/quickSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../정렬/selectionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../최단경로/BOJ_11404_플로이드.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../최단경로/dijkstra_min_weight.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../최단경로/dijkstra_min_weight_path.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="276jpQPARB1YlhPQsQj0HOdLkLJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb2de8ee-5b83-4457-bf95-22606e21c1be" name="Changes" comment="" />
+      <created>1648647612691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648647612691</updated>
+    </task>
+    <servers />
   </component>
 </project>
