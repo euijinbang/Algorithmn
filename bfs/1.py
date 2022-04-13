@@ -25,11 +25,13 @@ def bfs(board, start, visited):
         for dir in range(4):
             nx, ny = x + dx[dir], y + dy[dir]
             if 0 <= nx < n and 0 <= ny < n and not visited[nx][ny]:
+                # 방문체크, 큐에 추가, 추가조치
                 visited[nx][ny] = True
                 board[nx][ny] = board[x][y] + 1
                 q.append([nx, ny])
 
     return board
+
 
 start = (1, 1)
 visited = [[False] * n for _ in range(n)]
