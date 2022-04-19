@@ -68,4 +68,4 @@ def postorder_traverse(node):
 
 
 init_tree()
-preorder_traverse(root)
+inorder_traverse(root)

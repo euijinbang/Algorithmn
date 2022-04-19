@@ -20,4 +20,4 @@ def combinations(n, k):
     return res
 
 
-print(combinations(4, 2))
+print(combinations(4, 3))
