@@ -20,7 +20,7 @@ class Solution:
 
         #         dummy2 = ListNode()
         #         dummy2.next = head
-        #         # dummy부터 시작하는 pointer를 정의!
+        #         # dummy부터 시작하는 pointer를 정의! => 이부분이 놓친 부분..!
         #         pointer = dummy2
         #         cnt = -1
         #         while pointer:
