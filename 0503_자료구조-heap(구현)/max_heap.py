@@ -135,18 +135,3 @@ if __name__ == "__main__":
         rem = h.pop()
         print("popped item is {}".format(rem.key))
         print_heap(h)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
