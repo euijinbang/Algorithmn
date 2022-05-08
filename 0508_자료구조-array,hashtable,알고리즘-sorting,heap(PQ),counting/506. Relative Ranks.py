@@ -1,5 +1,22 @@
+class Solution:
+    def findRelativeRanks(self, score: List[int]) -> List[str]:
+
+        sorted_score = sorted(score, reverse=True)
+        # s = {}
+        # for index, score in enumerate(sorted_score):
+        #     s[score] = index
+        s = {score:index for index, score in enumerate(sorted_score)}
+
+        medals = ["Gold Medal", "Silver Medal", "Bronze Medal"] + [str(x) for x in range(4, len(score)+1)]
+
+        # result = []
+        # for sc in score:
+        #     result.append(medals[s[sc]])
+        result = [medals[s[sc]] for sc in score]
+        return result
 
 
+######################################################################################################
 # 배열사용
 class Solution:
     def findRelativeRanks(self, score: List[int]) -> List[str]:
