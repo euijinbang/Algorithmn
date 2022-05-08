@@ -1,5 +1,7 @@
 """
 heapq 모듈은 최소 우선순위 큐를 지원한다.
+key와 data를 push 하면 key가 작은 원소가 앞에 위치한다.
+key가 높은 원소부터 꺼내고 싶으면 뒤집자.
 루트 인덱스는 0이다.
 """
 from heapq import heappush, heappop
@@ -9,6 +11,8 @@ heappush(h, (4, 'kim'))
 heappush(h, (3, 'lee'))
 heappush(h, (1, 'jong'))
 heappush(h, (2, 'seo'))
+
+heappop(h)
 
 print(h[0])
 print(h[-1])
