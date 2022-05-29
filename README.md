@@ -1,6 +1,105 @@
 # Algorithm
 
-> Basic
+
+### 2차원 배열에서 max값 구하기
+```python
+    data = [[1,2,2],[3,8,2],[5,3,5]]
+
+    max_data = max(max(data, key=max))  # 8
+    
+    max([data[col][row] for col in range(n) for row in range(m)])  # 8
+```
+
+### 집합(hashSet) 활용하기
+```python
+    hashSet
+    - 교집합 없으면 True ...  x1.isdisjoint(x2)
+    - 교집합 찾기 ... x1 & x2
+    - 차집합 찾기 ... x1 - x2
+    - 합집합 찾기 ... x1 | x2
+    - 여집합 찾기 ... x1 ^ x2
+```
+
+### 문자열 다중 sorting
+1) dict.items()의 key와 val을 기준으로 정렬한다.
+```python
+    # count갯수(value) 내림차순 정렬 후 이름(key) 내림차순 정렬 ... 각각 - 가 아니라 한번에 reverse 처리
+    sorted_counter = sorted(counter.items(), key=lambda item: (item[1], item[0]), reverse=True)
+```
+2) 최댓값 구하기 -> 순위리스트 구하기 -> 길이 1이면 리턴, 아니면 그 리스트를 정렬
+```python
+    max_val = max(counter.values())
+    ranks = []
+    for name, val in counter.items():
+        if val == max_val:
+            ranks.append(name)
+
+    if len(ranks) == 1: return ranks[-1]
+    else:
+        ranks.sort()
+        return ranks[-1]
+```
+3) 갱신하기 : 임시변수 생성 -> 반복문 돌면서 갱신, max와 동일하다면 이름으로 임시정렬 만들기
+```python
+
+    max_val = float('-inf')
+    max_name = ''
+
+    for name, val in counter.items():
+        if val > max_val:
+            max_val = val
+            max_name = name
+        if val == max_val:
+            temp = sorted([max_name, name], key=str, reverse=True)  # Bob, Charlie -> Charlie, Bob
+            max_name = temp[0]
+```
+### collections.Counter 활용
+map으로 key의 자료형을 변경할 수 있다.
+
+{0:2, 3:1} str:int  => int:int
+```python
+
+    counter = collections.Counter(map(int, num))
+
+```
+
+### dictonary keyErrorfmf 막아보자1;
+```python
+    dict = collections.defaultdict(int)
+    dict = collections.defaultdict(set)
+    dict = collections.defaultdict(list)
+```
+
+### dictionary keyError를 막아보자2; dict.get(key, default)
+```python
+    for i in range(len(num)):
+        if int(num[i]) != counter.get(i, 0): # key i 없으면 0을 반환
+            return False
+    return True
+```
+
+### all(iterable) 활용
+반복문 모든 요소 True->True
+```python
+    seen = [False] * len(rooms)
+    all(seen) #False
+    
+    seen = [True] * len(rooms)
+    all(seen) #True
+```
+
+### 4방, 8방탐색
+```python
+    dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+    dirs = [(-1,-1), (0,-1), (1,-1), (1,0), (1,1), (0,1), (-1,1), (-1,0)]
+    
+    for dx, dy in dirs:
+        nx, ny = x + dx, y + dy
+        if 0 <= nx < m and 0 <= ny < n and (nx, ny) not in visited:
+            dfs(nx, ny)
+            ...
+```
+
 
 
 
