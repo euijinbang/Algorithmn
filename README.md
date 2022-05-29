@@ -9,7 +9,7 @@
     
     max([data[col][row] for col in range(n) for row in range(m)])  # 8
 ```
-
+#
 ### 집합(hashSet) 활용하기
 ```python
     hashSet
@@ -19,7 +19,7 @@
     - 합집합 찾기 ... x1 | x2
     - 여집합 찾기 ... x1 ^ x2
 ```
-
+#
 ### 문자열 다중 sorting
 1) dict.items()의 key와 val을 기준으로 정렬한다.
 ```python
@@ -53,6 +53,7 @@
             temp = sorted([max_name, name], key=str, reverse=True)  # Bob, Charlie -> Charlie, Bob
             max_name = temp[0]
 ```
+#
 ### collections.Counter 활용
 map으로 key의 자료형을 변경할 수 있다.
 
@@ -62,22 +63,22 @@ map으로 key의 자료형을 변경할 수 있다.
     counter = collections.Counter(map(int, num))
 
 ```
-
-### dictonary keyErrorfmf 막아보자1;
+#
+### dictonary keyError를 막아보자 1;
 ```python
     dict = collections.defaultdict(int)
     dict = collections.defaultdict(set)
     dict = collections.defaultdict(list)
 ```
-
-### dictionary keyError를 막아보자2; dict.get(key, default)
+#
+### dictionary keyError를 막아보자 2; dict.get(key, default)
 ```python
     for i in range(len(num)):
         if int(num[i]) != counter.get(i, 0): # key i 없으면 0을 반환
             return False
     return True
 ```
-
+#
 ### all(iterable) 활용
 반복문 모든 요소 True->True
 ```python
@@ -87,7 +88,7 @@ map으로 key의 자료형을 변경할 수 있다.
     seen = [True] * len(rooms)
     all(seen) #True
 ```
-
+#
 ### 4방, 8방탐색
 ```python
     dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]
@@ -102,7 +103,7 @@ map으로 key의 자료형을 변경할 수 있다.
 
 
 
-
+#
 ## Searching
 
 ### Sequential Search
