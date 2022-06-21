@@ -189,6 +189,66 @@ class Solution:
 
 
 
+
+
+## Priority Queue(heap)
+
+> heapq 모듈은 최소 우선순위 큐를 지원한다.
+
+```python
+from heapq import heappush, heappop
+
+h = []
+heappush(h, (4, 'kim'))
+heappush(h, (3, 'lee'))
+heappush(h, (1, 'jong'))
+heappush(h, (2, 'seo'))
+
+print(h) # [(1, 'jong'), (2, 'seo'), (3, 'lee'), (4, 'kim')]
+while h:
+  print(heappop(h)) #(1, 'jong'), (2, 'seo'), (3, 'lee'), (4, 'kim')
+```
+
+
+
+```python
+from heapq import heappush, heappop
+
+h2 = []
+heappush(h2, 4)
+heappush(h2, 2)
+heappush(h2, 1)
+heappush(h2, 3)
+
+print(h2) #  [1, 3, 2, 4]
+while h2:
+    print(heappop(h2)) # 1, 2, 3, 4 순서로 출력
+```
+
+
+
+## Intersection over Union(IoU)
+
+> 최대로 겹치는 사각형의 면적
+>
+> https://gaussian37.github.io/math-algorithm-iou/
+>
+> https://tibyte.kr/228
+
+```python
+arr = [[2, 3, 8, 7], [3, 2, 10, 6], [6, 1, 11, 4]]
+
+x1, y1 = 0, 0
+x2, y2 = 100, 100
+for rec in arr:
+    x1, y1 = max(x1, rec[0]), max(y1, rec[1])
+    x2, y2 = min(x2, rec[2]), min(y2, rec[3])
+
+area = (x2 - x1) * (y2 - y1)
+```
+
+
+
 #
 
 ## Searching
