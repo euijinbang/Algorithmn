@@ -209,8 +209,6 @@ while h:
   print(heappop(h)) #(1, 'jong'), (2, 'seo'), (3, 'lee'), (4, 'kim')
 ```
 
-
-
 ```python
 from heapq import heappush, heappop
 
@@ -223,6 +221,48 @@ heappush(h2, 3)
 print(h2) #  [1, 3, 2, 4]
 while h2:
     print(heappop(h2)) # 1, 2, 3, 4 순서로 출력
+```
+
+
+
+## Priority Queue(maxHeap)
+
+> 음수를 넣고 뺄 때 기호를 바꾸면 maxHeap 을 구현할 수 있다.
+
+```python
+# 630. Course Schedule III
+
+class Solution:
+    def scheduleCourse(self, courses: List[List[int]]) -> int:
+        """
+        1. lastDay 마감 빠른 순, duration 작은 순으로 정렬
+        2. duration < lastDay 이면서
+        3. time + duration <= lastDay 이면 maxHeap 에 추가하고 time 업데이트
+            위의 조건이 아니라면
+                maxHeap[0] > duration 이라면
+                maxHeap[0] 을 pq에서 제거하고 새로운 duration을 넣고
+                time 에서 maxHeap[0] 을 빼고 새 duration을 더한다.
+        4. maxHeap 의 길이를 리턴한다.
+        """
+        
+        courses.sort(key=lambda x: (x[1], x[0]))
+        maxHeap = []
+        time = 0
+        
+        for duration, lastDay in courses:
+            if duration <= lastDay:
+                if duration + time <= lastDay:
+                    time += duration
+                    heapq.heappush(maxHeap, -duration)
+                else:
+                    if -maxHeap[0] > duration:
+                        max_duration = -maxHeap[0]
+                        heapq.heappop(maxHeap)
+                        heapq.heappush(maxHeap, -duration)
+                        time -= max_duration
+                        time += duration
+                    
+        return len(maxHeap)
 ```
 
 
@@ -249,23 +289,135 @@ area = (x2 - x1) * (y2 - y1)
 
 
 
+## BFS_dijkstra+dp
+
+> dp 이차원 배열과 다익스트라가 혼합된 문제 유형이다.
+>
+> 다음과 같은 조건을 전제한다.
+>
+> ```
+> dp[i][j] : 시작점에서부터 (i, j)로 가는 걸리는 최소 난이도
+> 
+> 다익스트라 문제 특징
+> 1. 모든 경로의 난이도는 0 이상의 정수이다.
+> 2. 시작점에서 최소 난이도의 경로로 갱신해나가면 모든 점에서의 최소 난이도가 기록된다.
+> 3. 문제가 한 점에서 특정 점까지의 최소 난이도를 구한다.
+> ```
+
+```python
+# 1631. Path With Minimum Effort
+
+class Solution:
+    def minimumEffortPath(self, heights: List[List[int]]) -> int:
+        """
+        dijkstra
+        1. 최대값으로 채운 거리용 이차원 배열, pq, visited 세팅
+        2. new_w(이전 노드까지의 max effort 와 현 노드 effort 중 더 큰 값)
+        가 costs배열보다 작으면 new_w로 갱신한다.
+        """
+
+        m, n = len(heights), len(heights[0])
+        dst = (m-1, n-1)
+
+        dirs = [(1,0),(-1,0),(0,1),(0,-1)]
+        costs = [[float('inf')]*n for _ in range(m)]  # 최대값으로 배열을 채운다.
+
+        pq = [(0, 0, 0)]  # w, sx, sy
+        visited = set()
+
+        while pq:
+            w, x, y = heapq.heappop(pq)
+            visited.add((x, y))
+
+            if (x, y) == dst:
+                return w
+
+            for dx, dy in dirs:
+                nx, ny = x+dx, y+dy
+                if 0 <= nx < m and 0 <= ny < n and (nx, ny) not in visited:
+                    new_w = max(w, abs(heights[nx][ny] - heights[x][y]))
+                    if new_w < costs[nx][ny]:
+                        costs[nx][ny] = new_w
+                        heapq.heappush(pq, (new_w, nx, ny))
+
+        return -1
+
+```
+
+```python
+# 암벽등반
+
+from heapq import heappop, heappush
+
+m, n = 5, 6
+wall = [
+    [0, 1, 1, 1, 0, 0],
+    [3, 1, 0, 1, 1, 0],
+    [0, 0, 0, 0, 1, 1],
+    [0, 0, 0, 0, 0, 1],
+    [2, 1, 1, 1, 1, 1]
+]
+
+# 최댓값 : 높이 차의 최대
+dp = [[50] * n for _ in range(m)]
+
+# 도착지 및 시작지 찾기
+for i in range(m):
+    for j in range(n):
+        if wall[i][j] == 3:
+            e = (i, j)
+        if wall[i][j] == 2:
+            s = (i, j)
+
+
+def bfs(x, y):
+    pq = [(x, y, 0)]
+
+    while pq:
+        r, c, dist = heappop(pq)
+
+        if dp[r][c] <= dist:
+            continue
+
+        dp[r][c] = dist
+
+        # 아래로 이동
+        for nr in range(r+1, m):
+            if wall[nr][c] == 0: continue
+            ndist = max(dist, nr - r)
+            if ndist >= dp[nr][c]: continue
+            heappush(pq, (nr, c, ndist))
+
+        # 위로 이동
+        for nr in range(r-1, -1, -1):
+            if wall[nr][c] == 0: continue
+            ndist = max(dist, r - nr)
+            if ndist >= dp[nr][c]: continue
+            heappush(pq, (nr, c, ndist))
+
+        # 오른쪽으로 이동
+        for nc in range(c+1, n):
+            if wall[r][nc] == 0: break
+            if dist >= dp[r][nc]: continue
+            heappush(pq, (r, nc, dist))
+
+        # 왼쪽으로 이동
+        for nc in range(c-1, -1, -1):
+            if wall[r][nc] == 0: break
+            if dist >= dp[r][nc]: continue
+            heappush(pq, (r, nc, dist))
+
+
+bfs(s[0], s[1])
+
+# 구하고자 하는 것 : 도착 좌표까지 가는 난이도의 최솟값
+print(dp[e[0]][e[1]])
+
+```
+
+
+
 #
-
-## Searching
-
-### Sequential Search
-
-> 순차 탐색
-
-
-
-### Binary Search
-
-> 이진 탐색
-
-
-
-
 
 
 
@@ -319,9 +471,7 @@ https://www.geeksforgeeks.org/insertion-sort/
 - 시간복잡도 O(nlogn) , merge sort와 동일
 - 증명 https://ninefloor-design.tistory.com/175 
 
-## Greedy
-
-## Recursive
+## 
 
 ## Dynamic Programming & Divide and Conquer
 > 동적 계획 프로그래밍과 분할 정복
