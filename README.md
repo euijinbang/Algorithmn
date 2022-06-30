@@ -421,6 +421,58 @@ print(dp[e[0]][e[1]])
 
 
 
+## Median vs. Mean
+
+### Median 
+
+- 배열을 좌, 우 같은 갯수의 수로 나누게 하는 중간값
+- **배열은 반드시 오름차순으로 정렬되어 있어야 한다.**
+- [1, 2, 4] => 인덱스 1인 2가 `median`이다.
+
+### Mean
+
+- 전체 배열 엘리먼트의 평균값
+- [1, 3, 5] => (1+3+5)/3 = 3 이 `mean` 이다.
+
+
+
+> median은 어떻게 구하나?
+>
+> "정렬된" 배열 길이가 "홀수" 라는 전제 하에 전체 길이 // 2 가 median 의 인덱스이다.
+
+```python
+# 462. Minimum Moves to Equal Array Elements II
+class Solution:
+    def minMoves2(self, nums: List[int]) -> int:
+        n = len(nums)
+        mid = n//2
+        nums.sort()
+        res = 0
+        for i in range(n):
+            res += abs(nums[i]-nums[mid])
+            
+        return res
+```
+
+```java
+class Solution {
+    public int minMoves2(int[] nums) {
+        int n = nums.length;
+        int mid = n / 2;
+        Arrays.sort(nums);
+        int res = 0;
+        for (int i=0; i<n; i++) {
+            res += Math.abs(nums[i] - nums[mid]);
+        }
+        return res;
+    }
+}
+```
+
+
+
+#
+
 ## Sorting
 
 ### Bubble Sort
