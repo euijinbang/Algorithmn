@@ -54,7 +54,52 @@
             max_name = temp[0]
 ```
 #
+
+### Java Sort : x[1] 기준 내림차순 reverse 정렬
+
+```python
+# python
+arr.sort(key= lambda x:x[1], reverse=True)
+```
+
+```java
+// java 
+// 1번 ****
+Arrays.sort(arr, (a, b) -> Integer.compare(b[1], a[1]));
+// 2번
+Arrays.sort(arr, (a, b) -> b[1] - a[1]);   
+```
+
+#
+
+### Java Comparator & Lambda(Java8)
+
+```java
+Comparator<Integer> c = new Comparator<>() {
+  @Override
+  public int compare(Integer a, Integer b) {
+    return Integer.compare(a, b);
+  }
+}
+```
+
+```java
+// Lambda
+Comparator<Integer> c = (a, b) -> Integer.compare(a, b);
+
+////////////////////////////////
+(a, b) -> Integer.compare(a, b); 
+// a < b : return -1 왼쪽정렬(오름차순)
+// a = b : return 0
+// a > b : return 1  오른쪽정렬(내림차순)
+```
+
+
+
+#
+
 ### collections.Counter 활용
+
 map으로 key의 자료형을 변경할 수 있다.
 
 {0:2, 3:1} str:int  => int:int
