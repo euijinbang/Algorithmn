@@ -148,6 +148,46 @@ map으로 key의 자료형을 변경할 수 있다.
 
 
 
+#
+
+## Greedy
+
+> greedy problem
+
+- https://leetcode.com/problems/jump-game/
+- https://leetcode.com/problems/jump-game-ii/
+
+```java
+// 55. Jump Game
+
+/* 
+	<< greedy >>
+  last index를  goal로 잡고
+  index를 맨 뒤부터 0까지 가져오는데
+  index + nums[index] >= goal 이라면 곧
+  goal에 도착할 수 있다는 의미이므로
+  goal 을 index에 이동시키고 그다음 index를 확인
+  goal 이 0 에 도착하면 True 반환
+*/
+
+class Solution {
+    public boolean canJump(int[] nums) {
+        int goal = nums.length - 1;
+
+        for (int i = nums.length - 1; i >= 0; i--) {
+            if (i + nums[i] >= goal) {
+                goal = i;
+            }
+        }
+        return goal == 0;
+    }
+}
+```
+
+
+
+#
+
 ## Topological Sort
 
 > ordering on the nodes of the graph
