@@ -1,6 +1,6 @@
-from collections import defaultdict
 import bisect
 
+# defaultdict 시간초과
 
 def binarySearchLeft(scores, q_score):
     """
@@ -26,12 +26,20 @@ def binarySearchLeft(scores, q_score):
 
 def solution(info, query):
     answer = []
-    infos = defaultdict(list)
+    infos = {}
 
+    tmp = []
     for data in info:
         items = data.split()
         conditions, score = tuple(items[:4]), int(items[-1])
-        infos[conditions].append(score)
+        tmp.append((conditions, score))
+
+    tmp.sort(key=lambda x: x[1])
+
+    for condition, score in tmp:
+        if condition not in infos:
+            infos[condition] = []
+        infos[condition].append(score)
 
     for q in query:
         qs = q.split()
@@ -48,8 +56,7 @@ def solution(info, query):
         # 조건에 부합하는 리스트만 남는다. == conditions_list
         # 조건에 부합하는 리스트의 점수 리스트를 가져와서, 이분탐색한다.
 
-        # 이분탐색 위해 오름차순 정렬
-        q_infos = [sorted(infos[x]) for x in conditions_list]
+        q_infos = [infos[x] for x in conditions_list]
         q_result = 0
 
         for scores in q_infos:

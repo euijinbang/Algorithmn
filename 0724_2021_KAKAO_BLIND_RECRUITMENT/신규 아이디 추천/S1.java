@@ -81,13 +81,13 @@ class S1 {
         }
 
         // 길이 검사
-        if (answer_no_dup.length() <= 2) {
+        if (answer_no_dup.length() < 3) {
             while (answer_no_dup.length() != 3) {
                 answer_no_dup += answer_no_dup.charAt(answer_no_dup.length()-1);
             }
         }
 
-        if (answer_no_dup.length() >= 16) {
+        if (answer_no_dup.length() > 15) {
             answer_no_dup = answer_no_dup.substring(0, 15);
             if (answer_no_dup.charAt(answer_no_dup.length()-1) == '.') {
                 answer_no_dup = answer_no_dup.substring(0, answer_no_dup.length()-1);
