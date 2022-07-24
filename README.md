@@ -134,9 +134,10 @@ map으로 key의 자료형을 변경할 수 있다.
     all(seen) #True
 ```
 #
-### 4방, 8방탐색
+### 4방, 6방, 8방탐색
 ```python
     dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+  	dirs = # 생략
     dirs = [(-1,-1), (0,-1), (1,-1), (1,0), (1,1), (0,1), (-1,1), (-1,0)]
     
     for dx, dy in dirs:
@@ -145,6 +146,42 @@ map으로 key의 자료형을 변경할 수 있다.
             dfs(nx, ny)
             ...
 ```
+
+#
+
+### filtering 필터링
+
+- 여러 개의 데이터 중 (list, tuple) 일부 데이터만 추릴 경우 사용한다.
+
+```python
+filter( 조건함수, 순회데이터 )
+```
+
+```python
+users = [{'name': 'Brett Holland', 'sex': 'M'},
+...  {'name': 'Madison Martinez', 'sex': 'F'},
+...  {'name': 'Michael Jenkins', 'sex': 'M'},]
+
+def is_man(user):
+  return user["sex"] == "M"
+
+for man in filter(is_man, users):
+  print(man)
+  
+"""
+{'name': 'Brett Holland', 'sex': 'M'}
+{'name': 'Michael Jenkins', 'sex': 'M'}
+"""
+```
+
+- 람다식
+
+```python
+for man in filter(lambda u: u["sex"] != "F", users):
+	print(man)
+```
+
+
 
 
 
@@ -270,6 +307,52 @@ class Solution:
 
         return stack[::-1] if is_possible else []
                     
+```
+
+
+
+## BinarySearch 이분탐색
+
+- 탐색하려는 리스트는 오름차순 정렬되어있어야 한다.
+
+> LEFT 최 좌측 인덱스 탐색 
+
+```python
+def binarySearchLeft(scores, q_score):
+    """
+    scores 정렬된 리스트 안에
+    q_score 가 있으면 가장 왼쪽의 index를 반환
+    없으면
+
+    100 150 150 150 150 200 300
+    100 -> 0
+    150 -> 1
+    170 -> 5
+    """
+
+    left, right = 0, len(scores)
+    while left < right:
+        mid = (left + right) // 2
+        if q_score <= scores[mid]:
+            right = mid
+        else:
+            left = mid + 1  # lower_bound
+    return left
+```
+
+
+
+- 파이썬 라이브러리
+
+ ```
+  bisect_left(literable, value) : 왼쪽 인덱스를 구하기
+  bisect_right(literable, value) : 오른쪽 인덱스를 구하기
+ ```
+
+```python
+import bisect
+
+idx = bisect.bisect_left(scores, q_score)
 ```
 
 
