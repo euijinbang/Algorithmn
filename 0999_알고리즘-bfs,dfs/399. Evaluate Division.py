@@ -1,0 +1,1 @@
+#https://leetcode.com/problems/path-with-minimum-effort/discuss/1000195/Thought-Process-from-Naive-BFS-to-Dijkstra
