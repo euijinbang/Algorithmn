@@ -3,6 +3,7 @@ class Solution {
         int even = 0;
         for(int num : nums) {
             int digit = 1;
+
             while((num / 10) > 0) {
                 digit += 1;
                 num = num / 10;
@@ -11,6 +12,7 @@ class Solution {
                 even += 1;
             }
         }
+
         return even;
     }
 }
